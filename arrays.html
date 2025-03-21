@@ -6,27 +6,20 @@
     <title>Aluno</title>
 </head>
 <body>
+    <button type="button" onclick="">Adicionar alunos</button>
+    <br>
+    <output></output>
+    
+    
     <script>
-            //const aluno1 = "Aline";
-            //const aluno2 = "Arthur";
-            //const aluno3 = "Bárbara";
 
-            //document.write(aluno1 + "<br>");
-            //document.writel(aluno2 + "<br>");
-           // document.write(aluno +3 "<br>" );
-
-            //arreays
-            // const alunos = [1° nome, 2° nome, 3° nome...]
-            //aluno = [ 0, 1, 2, 3 ....]
-
-
-            const alunos = ["Aline", "Arthur", "Bárbara", "Bruna", "Bruna Torres", "Bruna Velôso", "Cauã"];
+         const alunos = ["Aline", "Arthur", "Bárbara", "Bruna", "Bruna Torres", "Bruna Velôso", "Cauã"];
 
 for (let indice = 0; indice < alunos.length; indice++) {
     document.write(alunos[indice] + "<br>");
 }
 
-let nome = prompt("Quer digitar um nome? Caso não queira, clique em cancelar.");
+let nome = prompt("Quer adicionar um nome? Caso não queira, clique em cancelar.");
 
 if (nome) {
     alunos.push(nome); 
@@ -37,7 +30,7 @@ if (nome) {
     }
 }
 
-
+    
 
     </script>
     
